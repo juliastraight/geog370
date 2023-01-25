@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "hw2_lunch",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 2 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -79.049382993339194, 35.911169048384217 ], [ -79.049342386659447, 35.911110677666549 ], [ -79.049399886917584, 35.911088961219662 ], [ -79.0494263122646, 35.911147018135836 ], [ -79.049382993339194, 35.911169048384217 ] ] ] ] } }
+]
+}
