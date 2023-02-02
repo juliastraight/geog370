@@ -9,7 +9,7 @@
     <h1>In this project I learned how to display images in different projections</h1>
     
     <h2 style="color:blueviolet">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <p>For this project, I downloaded the World Projections shapefile that originated from naturalearthdata.com. Then, I added that shapefile as a vector layer in QGIS. Next, I added the projection circles and graticules from the plugin 'Indicatrix mapper.' I was able to change the projection type by clicking on the globe symbol in the bottom right corner of QGIS, and then choosing different projection types. With the circles and graticules from the Indicatrix mapper plugin, I was able to see how each projection changed the shape of the continents. Some projections stretched different parts of the globe up and down, some stretched sideways, and some stretched diagonally. </p>
     
     <h2>WGS84 Projection</h2>
     <h3> This map looks the most familiar to me. The projection gets larger and wider towards the north and south poles, but it seems like the height of everything stays the same. </h3>
@@ -21,45 +21,45 @@
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="EPSG54043" width='500px'>
     </a>
-    <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
+    <h2 style="color:blueviolet">Now, you should <u>add the following projections on your own:</u></h2>
     <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
     <h2>ESPG: 3857 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>In this projection, none of the continents have their shape distorted, but the sizes are very distorted closer to the poles. The distortion is the same from east to west. In this projection, Greenland and Africa look to be similar sizes, but Greenland is much smaller than Africa. Antartica is very enlarged.</h3>
     <a href=".//maps/3857.png">
     <img src=".//maps/3857.png" alt="EPSG3857" width='500px'>
     </a>
     <h2>ESPG: 53018 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is relatively undistorted. However, The landmasses towards the poles are enlarged, and the corners of the map are stretched diagonally. </h3>
     <a href=".//maps/53018.png">
     <img src=".//maps/53018.png" alt="EPSG53018" width='500px'>
     </a>
     <h2>ESPG: 54034 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is undistorted along the equator, and then the landmasses are stretched horizontally as you move north and south. Canada and Russia are extremely stretched in the north, and Antartica is extremely stretched in the South.</h3>
     <a href=".//maps/54034.png">
     <img src=".//maps/54034.png" alt="EPSG54034" width='500px'>
     </a>
     <h2>ESPG: 54027 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is undistorted in the North, and then stretched along the latitude more and more as towards the south pole. The north pole is in the center, and the south pole is around the edge. Instead of creating a whole circle, this projection creates about 7/8ths of a circle.</h3>
     <a href=".//maps/54027.png">
     <img src=".//maps/54027.png" alt="EPSG54027" width='500px'>
     </a>
     <h2>ESRI: 102016 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is similar to the one above, but it creates a whole circle instead. The north pole is undistorted, and the landmasses and oceans are stretched along latitude lines towards the south. </h3>
     <a href=".//maps/102016a.png">
     <img src=".//maps/102016a.png" alt="ESRI102016a" width='500px'>
     </a>
     <h2>ESRI: 102096 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection shows both the north pole and south pole as circles, East Asia and Australia in the middle. The area from Australia to China is relatively undistorted, and then Europe, Africa, and the Americas are stretched along longitude lines. The areas directly north of the north pole and south of the south pole are also stretched along latitude lines. This map is the least recognizable to me, but it could be good for looking at the parts of the globe that are in the middle of this projection. </h3>
     <a href=".//maps/102096.png">
     <img src=".//maps/102096.png" alt="ESRI102096a" width='500px'>
     </a>
     <h2>EPSG: 6350 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection has a very interesting shape. The areas Canada and the northern parts of South America and along most of those latitude lines are relatively undistorted. The map is very stretched along latitude lines towards the south pole for the areas between Austrailia and Africa. Between Austrailia and Africa, the map is extremely stretched, to the point where it is basically unrecognizable. This would be a good projection if youre mainly looking at the Americas, Western Europe, and Africa.  </h3>
     <a href=".//maps/6350.png">
     <img src=".//maps/6350.png" alt="EPSG6350" width='500px'>
     </a>
     <p></p>
     <h2>Data used for this project</h2>
-    <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
+    <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natural Earth 1:10m Cultural Vector </a>
 </body>
 </html>
